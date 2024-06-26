@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI 2.0</title>
+</head>
+
+<body>
+    <div class="interface">
+        <div class="head">
+            <h2> Gemini AI 2.0</h2>
+        </div>
+        <div class="text-content">
+            <!-- <p> GEMINI 2.0</p> -->
+            <textarea class="text-area" id="information" cols="30" rows="10"></textarea>
+            <textarea class="text-area1" id="information1" cols="30" rows="10"></textarea>
+        </div>
+        <div class="search-coms">
+            <input type="text" class="search" name="" id="search-input" placeholder="SEARCH  YOUR QUERRIES.....">
+            <button id="button" class="button fa-solid fa-paper-plane"></button>
+
+
+        </div>
+
+</body>
+<script type="importmap">
+    {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+  </script>
+<script type="module" src="script1.js"></script>
+
+</html>

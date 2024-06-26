@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+.interface{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(41, 61, 61);
+}
+.head{
+    height: 9vmin;
+    border-radius: 30px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(90deg,rgb(133, 116, 84),rgb(72, 72, 218)); */
+    box-shadow: 2px 2px 40px rgba(255, 255, 255, 0.767);
+}
+h2{
+    
+    color: white;
+} 
+.text-area{
+    height: 80vh;
+    width:30%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-40%,-50%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: transparent;
+    font-size: 20px;
+    padding: 7vmin;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    resize: none ;
+    outline: none;
+    color: rgb(111, 152, 189);
+    background-image: linear-gradient(90deg,rgb(37, 37, 77),rgb(133, 116, 84));
+    
+}
+.text-area1{
+    height: 80vh;
+    width:60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: -20%;
+    transform: translate(-41%,-50%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 7vmin;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    resize: none ;
+    outline: none;
+    color: white;
+    background-image: linear-gradient(90deg,rgb(133, 116, 84),rgb(37, 37, 53));
+    
+}
+
+.text-area::-webkit-scrollbar{
+    display: none;
+}  
+.text-area1::-webkit-scrollbar{
+    display: none;
+} 
+
+.text-content p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    color: rgba(173, 187, 199, 0.406);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.search-coms{
+    position: absolute;
+    bottom: 0;
+    
+    z-index: 999;
+    width: 100%;
+    height: 8vmin;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    height: 6vmin;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.button{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(-50%,-50%);
+    height: 6vmin;
+    width: 7%;
+    color: black;
+    background-color:orange ;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+    
+}
